@@ -30,6 +30,11 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 * Azure: Ideal for enterprise setups, hybrid cloud, or Microsoft-heavy environments
 * AWS: Wide range of services on a global network of availability zones and regions
 
+3. Recommendation:
+* If not sure which one to start with, start with Google Cloud
+* [Getting Started with Google Cloud Learning Path](https://www.cloudskillsboost.google/paths/8)
+* Other tutorials can be found on [Cloud Tasks](https://cloud.google.com/docs/ai-ml)
+
 # Hands-on
 
 1. Build Python code to call an API, store data in a data warehouse
