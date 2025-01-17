@@ -52,12 +52,13 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
       * GCP Vertex AI Studio, Azure Machine Learning Studio, AWS SageMaker
       
 5. Differences between on-premise vs. cloud environments.
-| Feature  | On-Premise | Cloud | 
-| ------------- | ------------- | ------------- |
-| Infrastructure Costs  | High upfront costs | Pay-as-you-go |
-| Maintenance | Requires in-house expertise | Handled by your provider |
-| Scalability | Limited by hardware capacity | Unlimited, subject to budget |
-| Accessibility | Local network access only | Accessible from anywhere |
+
+> | Feature  | On-Premise | Cloud | 
+> | ------------- | ------------- | ------------- |
+> | Infrastructure Costs  | High upfront costs | Pay-as-you-go |
+> | Maintenance | Requires in-house expertise | Handled by your provider |
+> | Scalability | Limited by hardware capacity | Unlimited, subject to budget |
+> | Accessibility | Local network access only | Accessible from anywhere |
 
 7. Introduction to regions, availability zones, and redundancy.
 8. How cloud pricing works: pay-as-you-go and reserved models.
