@@ -60,8 +60,25 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 | Scalability | Limited by hardware capacity | Unlimited, subject to budget |
 | Accessibility | Local network access only | Accessible from anywhere |
 
-7. Introduction to regions, availability zones, and redundancy.
-8. How cloud pricing works: pay-as-you-go and reserved models.
+6. Introduction to regions, availability zones, and redundancy.
+   * Regions:
+      * Geographical locations where providers host data centers.
+      * Example: [AWS](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/), [GCP](https://cloud.google.com/about/locations#asia-pacific)
+   * Availability zones:
+      * Isolated data centers within a region.
+      * Designed for high availability and fault tolerance.
+   * Redundancy:
+      * Backup resources to ensure uptime.
+      * Example: Cross-region replication of data.
+
+7. How cloud pricing works: pay-as-you-go and reserved models.
+   * Pay-as-You-Go:
+      * Charges based on actual usage (e.g., compute hours, storage GBs).
+      * Flexible and cost-effective for variable workloads.
+   * Reserved Models:
+      * Commit to usage for a fixed period (e.g., 1 year, 3 years).
+      * Provides significant cost savings for predictable workloads.
+   * [Azure]
 
 # Compare services between AWS, GCP, Azure
 
