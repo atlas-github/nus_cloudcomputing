@@ -1,5 +1,9 @@
 For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-analysis-health-and-medicine) and [DSA5101](https://nusmods.com/courses/DSA5101/introduction-to-big-data-for-industry).
 
+# Introduction
+
+[Portfolio](https://kohwyhow.com/)
+
 # Pre-requisites
 
 1. Get faculty/instructor to apply for [Google Cloud](https://support.google.com/google-cloud-higher-ed/answer/10324552) credits or [Azure](https://azure.microsoft.com/en-us/free/students) for students. 
@@ -8,13 +12,27 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 
 # Cloud computing
 1. Benefits: scalability, cost-efficiency, and accessibility.
+* Automatically scale resources up or down based on demand.
+* Example: E-commerce websites handling traffic surges during sales.
+* Pay only for what you use (pay-as-you-go).
+* Avoid upfront investments in hardware.
+* Access resources and services from anywhere with an internet connection.
+* Enable remote collaboration and global reach.
+
 2. Real-world examples and use cases.
-3. Overview of popular providers: AWS, Azure, GCP.
-4. Key services: compute, storage, databases, and analytics.
-5. Differences between on-premise vs. cloud environments.
-6. Core components: virtual machines, containers, and serverless functions.
-7. Introduction to regions, availability zones, and redundancy.
-8. How cloud pricing works: pay-as-you-go and reserved models.
+* Store and analyze patient data securely.
+* Use AI for diagnostics (e.g., detecting anomalies in medical images).
+* Real-time fraud detection and risk analysis.
+* High-frequency trading applications.
+* Personalize customer experiences using big data.
+* Optimize supply chain and inventory management.
+
+4. Overview of popular providers: AWS, Azure, GCP.
+5. Key services: compute, storage, databases, and analytics.
+6. Differences between on-premise vs. cloud environments.
+7. Core components: virtual machines, containers, and serverless functions.
+8. Introduction to regions, availability zones, and redundancy.
+9. How cloud pricing works: pay-as-you-go and reserved models.
 
 # Compare services between AWS, GCP, Azure
 
