@@ -20,10 +20,10 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 
 1. [Comparison](https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison)
 
-| Criteria  | Google Cloud | Azure | AWS |
-| ------------- | ------------- | ------------- | ------------- |
-| Ease of use  | Simple console interface, easiest to learn for newcomers  | Familiarity for enterprises using Microsoft tools | Better for users with prior cloud experience, robust documentation and training materials |
-| Educational resources  | [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) for hands on labs  | Free credits for educators/students through [Azure for Education](https://azureforeducation.microsoft.com/en-us/Institutions) | [AWS Educate](https://aws.amazon.com/education/awseducate/), [AWS Academy](https://aws.amazon.com/training/awsacademy/), [AWS Skill Builder](https://skillbuilder.aws/) |
+  | Criteria  | Google Cloud | Azure | AWS |
+  | ------------- | ------------- | ------------- | ------------- |
+  | Ease of use  | Simple console interface, easiest to learn for newcomers  | Familiarity for enterprises using Microsoft tools | Better for users with prior cloud experience, robust documentation and training materials |
+  | Educational resources  | [Google Cloud Skills Boost](https://www.cloudskillsboost.google/) for hands on labs  | Free credits for educators/students through [Azure for Education](https://azureforeducation.microsoft.com/en-us/Institutions) | [AWS Educate](https://aws.amazon.com/education/awseducate/), [AWS Academy](https://aws.amazon.com/training/awsacademy/), [AWS Skill Builder](https://skillbuilder.aws/) |
 
 2. My comparison:
 * Google Cloud: Great for AI/ML, big data analytics, or cloud-native applications like Kubernetes
