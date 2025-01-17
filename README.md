@@ -12,12 +12,12 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 
 # Cloud computing
 1. Benefits: scalability, cost-efficiency, and accessibility.
-   * Automatically scale resources up or down based on demand.
-   * Example: E-commerce websites handling traffic surges during sales.
-   * Pay only for what you use (pay-as-you-go).
-   * Avoid upfront investments in hardware.
-   * Access resources and services from anywhere with an internet connection.
-   * Enable remote collaboration and global reach.
+  * Automatically scale resources up or down based on demand.
+  * Example: E-commerce websites handling traffic surges during sales.
+  * Pay only for what you use (pay-as-you-go).
+  * Avoid upfront investments in hardware.
+  * Access resources and services from anywhere with an internet connection.
+  * Enable remote collaboration and global reach.
 
 2. Real-world examples and use cases.
    * Store and analyze patient data securely.
