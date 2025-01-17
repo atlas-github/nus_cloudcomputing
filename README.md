@@ -78,7 +78,7 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
    * Reserved Models:
       * Commit to usage for a fixed period (e.g., 1 year, 3 years).
       * Provides significant cost savings for predictable workloads.
-   * [Azure]
+   * [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) and [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator)
 
 # Compare services between AWS, GCP, Azure
 
