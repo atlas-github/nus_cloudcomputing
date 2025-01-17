@@ -27,14 +27,40 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
    * Personalize customer experiences using big data.
    * Optimize supply chain and inventory management.
 
-4. Overview of popular providers: AWS, Azure, GCP.
+3. Overview of popular providers: GCP, Azure, AWS.
+   * Google Cloud:
+      * Known for machine learning and data analytics services
+      * Offers solutions like BigQuery and TensorFlow  
+   * Azure:
+      * Integration with Microsoft tools (e.g. Office 365, Power BI)
+      * Popular in enterprise environments
+   * AWS:
+      * Pioneer in cloud services
+      * Broad service portfolio, global reach, mature ecosystem
+  
+4. Key services: compute, storage, databases, and analytics.
+   * Compute:
+      * Virtual Machines (VMs): GCP Compute Engine, Azure VMs, AWS EC2
+      * Containers: GCP Kubernetes Engine, Azure Kubernetes Service, AWS ECS
+      * Serverless functions: GCP Cloud Functions, Azure Functions, AWS Lambda
+   * Storage:
+      * Object storage: GCP Cloud Storage, Azure Blob Storage, AWS S3
+   * Databases:
+      * Relational: GCP BigQuery, Azure SQL Database, AWS RDS
+      * NoSQL: GCP Firestore, Azure CosmosDB, AWS DynamoDB
+   * AI/ML:
+      * GCP Vertex AI Studio, Azure Machine Learning Studio, AWS SageMaker
+      
+5. Differences between on-premise vs. cloud environments.
+| Feature  | On-Premise | Cloud | 
+| ------------- | ------------- | ------------- |
+| Infrastructure Costs  | High upfront costs | Pay-as-you-go |
+| Maintenance | Requires in-house expertise | Handled by your provider |
+| Scalability | Limited by hardware capacity | Unlimited, subject to budget |
+| Accessibility | Local network access only | Accessible from anywhere |
 
-5. 
-6. Key services: compute, storage, databases, and analytics.
-7. Differences between on-premise vs. cloud environments.
-8. Core components: virtual machines, containers, and serverless functions.
-9. Introduction to regions, availability zones, and redundancy.
-10. How cloud pricing works: pay-as-you-go and reserved models.
+7. Introduction to regions, availability zones, and redundancy.
+8. How cloud pricing works: pay-as-you-go and reserved models.
 
 # Compare services between AWS, GCP, Azure
 
