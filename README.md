@@ -121,13 +121,13 @@ Steps:
 8. Head to your Google Accoumt to create an app password, as detailed [here](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
 9. There is a file named [Google_News_RSS_Feed.ipynb](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed.ipynb) in this repository. Open in Colab, and create a copy in your Drive.
 10. Fill in the details in the code:
-   * project_id
-   * dataset_id
-   * table_id
-   * credentials
-   * email_sender
-   * email_password
-   * email_recipient
+    * project_id
+    * dataset_id
+    * table_id
+    * credentials
+    * email_sender
+    * email_password
+    * email_recipient
 11. Run your Colab notebook.
 12. After the code runs, verify whether you have received the email, and check your BigQuery table for new rows.
 
