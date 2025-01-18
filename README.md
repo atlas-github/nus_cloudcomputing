@@ -97,7 +97,14 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
    * [Getting Started with Google Cloud Learning Path](https://www.cloudskillsboost.google/paths/8)
    * Other tutorials can be found on [Cloud Tasks](https://cloud.google.com/docs/ai-ml)
 
-# Hands-on
+# Hands-on: Parse RSS feed, store news in a data warehouse, and email alerts of any new articles
+
+```mermaid
+graph TD;
+    Google_News_RSS_feed--parse-->Google_Colab;
+    Google_Colab--identify new articles-->BigQuery;
+    Google_Colab--identify new articles-->Email;
+```
 
 1. Build Python code to call an API, store data in a data warehouse
 2. If new rows are detected, send rows via automated email alerts
