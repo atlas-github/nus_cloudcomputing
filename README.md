@@ -106,8 +106,30 @@ graph TD;
     Google_Colab--identify new articles-->Email;
 ```
 
-1. Build Python code to call an API, store data in a data warehouse
-2. If new rows are detected, send rows via automated email alerts
+Links:
+1. [Google News RSS feed](https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en)
+2. [Google Colab](https://colab.research.google.com/)
+
+Steps:
+1. Register for a [Google Cloud](https://cloud.google.com/cloud-console) account.
+2. Start a new project, give it any name you like.
+3. Select the new project, copy and paste the project ID onto Sticky Note/Notepad on your laptop.
+4. Search for a service called **BigQuery**, and create a new dataset and table.
+5. When creating the table, edit the schema to include columns **Title**, **Link**, **Published**, and **Summary**. All should be **STRING**.
+6. Copy and paste the dataset ID and table ID onto your Sticky Note/Notepad.
+7. Search for a service called **Credentials**, and create a service account. The result should be a JSON file. Save this JSON file on your laptop.
+8. Head to your Google Accoumt to create an app password, as detailed [here](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
+9. There is a file named [Google_News_RSS_Feed.ipynb](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed.ipynb) in this repository. Open in Colab, and create a copy in your Drive.
+10. Fill in the details in the code:
+   * project_id
+   * dataset_id
+   * table_id
+   * credentials
+   * email_sender
+   * email_password
+   * email_recipient
+11. Run your Colab notebook.
+12. After the code runs, verify whether you have received the email, and check your BigQuery table for new rows.
 
 # Certifications
 1. [Google Cloud](https://cloud.google.com/learn/certification)
