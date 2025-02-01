@@ -6,9 +6,12 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 
 # Pre-requisites
 
-1. Get faculty/instructor to apply for [Google Cloud](https://support.google.com/google-cloud-higher-ed/answer/10324552) credits or [Azure](https://azure.microsoft.com/en-us/free/students) for students. 
-2. Alternatively, get a trial account on either [Google Cloud](https://cloud.google.com/?hl=en) ($300 credits for 90 days) or [Azure](https://azure.microsoft.com/) ($200 credits for 12 months)
-3. [Optional] Join the [Google Cloud Innovators](https://cloud.google.com/innovators?hl=en) program for free lab credits on Google Cloud Skills Boost
+1. An email with the **Student Coupon Retrieval Link** was sent out. Register to proceed with the hands-on session later.
+   * You will be asked for a name and email address, which needs to match your school domain. A confirmation email will be sent to you with a coupon code.
+   * You can request a coupon from the URL and redeem it until 28 May 2025.
+   * Coupon is valid through 28 Jan 2026.
+3. Alternatively, get a trial account on either [Google Cloud](https://cloud.google.com/?hl=en) ($300 credits for 90 days) or [Azure](https://azure.microsoft.com/) ($200 credits for 12 months).
+4. Azure also has a student accounts available on https://azure.microsoft.com/en-us/free/students
 
 # Cloud computing
 1. Benefits: scalability, cost-efficiency, and accessibility.
@@ -135,3 +138,6 @@ Steps:
 1. [Google Cloud](https://cloud.google.com/learn/certification)
 2. [Azure](https://azure.microsoft.com/en-us/resources/training-and-certifications#azure-certifications)
 3. [AWS](https://www.aws.training/certification)
+
+# Other Resources
+1. Join the [Google Cloud Innovators](https://cloud.google.com/innovators?hl=en) program for free lab credits on Google Cloud Skills Boost
