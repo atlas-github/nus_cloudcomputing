@@ -124,6 +124,15 @@ Steps:
    * SQL elastic pool is not needed, and workload environment should be Development.
    * Select `Create` and wait for the resources to be provisioned.
    * After the server and database is set up, allow public access to the database, and set SQL server username and password to access the database.
+   * Use the `Query editor (preview)` function to run the following code
+     ````
+     CREATE TABLE Articles (
+      Title NVARCHAR(MAX),
+      Link NVARCHAR(MAX),
+      Published NVARCHAR(MAX),
+      Summary NVARCHAR(MAX)
+      );
+     ````
 7. Open up a new tab and head to your Google Profile.
 8. Search for a service called **Credentials**, and create a service account. The result should be a JSON file. Save this JSON file on your laptop.
 9. Head to your Google Accoumt to create an app password, as detailed [here](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
