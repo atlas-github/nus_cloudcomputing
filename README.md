@@ -103,34 +103,41 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 ```mermaid
 graph TD;
     Google_News_RSS_feed--parse-->Google_Colab;
-    Google_Colab--identify new articles-->BigQuery;
+    Google_Colab--identify new articles-->Azure_SQL;
     Google_Colab--identify new articles-->Email;
 ```
 
 Links:
-1. [Google News RSS feed](https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en)
+1. [Google News RSS feed]([https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed_Azure.ipynb))
 2. [Google Colab](https://colab.research.google.com/)
 
 Steps:
-1. Register for a [Google Cloud](https://cloud.google.com/cloud-console) account.
-2. Start a new project, give it any name you like.
-3. Select the new project, copy and paste the project ID onto Sticky Note/Notepad on your laptop.
-4. Search for a service called **BigQuery**, and create a new dataset and table.
-5. When creating the table, edit the schema to include columns **Title**, **Link**, **Published**, and **Summary**. All should be **STRING**.
-6. Copy and paste the dataset ID and table ID onto your Sticky Note/Notepad.
-7. Search for a service called **Credentials**, and create a service account. The result should be a JSON file. Save this JSON file on your laptop.
-8. Head to your Google Accoumt to create an app password, as detailed [here](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
-9. There is a file named [Google_News_RSS_Feed.ipynb](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed.ipynb) in this repository. Open in Colab, and create a copy in your Drive.
-10. Fill in the details in the code:
-    * project_id
-    * dataset_id
-    * table_id
-    * credentials
+1. Register for a [Azure for Students](https://azure.microsoft.com/en-us/free/students) account. An trial [Azure](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/search) account works too.
+   * The difference between Azure for Students and a regular Azure account is during the registration stage, you'll need to use your university or school email, and no credit card is needed.
+   * A regular Azure account requires a credit card number for registration. 
+3. Start a new `Azure subscription`, give it any name you like.
+4. Start a new `Resource group`, give it any name you like.
+5. Using the search bar, search for `Azure SQL`
+6. Create a single SQL database
+   * Select your `Subscription` and `Resource group`
+   * Enter any database name, create a new server name
+   * SQL elastic pool is not needed, and workload environment should be Development.
+   * Select `Create` and wait for the resources to be provisioned.
+   * After the server and database is set up, allow public access to the database, and set SQL server username and password to access the database.
+7. Open up a new tab and head to your Google Profile.
+8. Search for a service called **Credentials**, and create a service account. The result should be a JSON file. Save this JSON file on your laptop.
+9. Head to your Google Accoumt to create an app password, as detailed [here](https://knowledge.workspace.google.com/kb/how-to-create-app-passwords-000009237).
+10. There is a file named [Google_News_RSS_Feed.ipynb](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed_Azure.ipynb) in this repository. Open in Colab, and create a copy in your Drive.
+11. Fill in the details in the code:
+    * server
+    * database
+    * username
+    * password
     * email_sender
     * email_password
     * email_recipient
-11. Run your Colab notebook.
-12. After the code runs, verify whether you have received the email, and check your BigQuery table for new rows.
+12. Run your Colab notebook.
+13. After the code runs, verify whether you have received the email, and check your Azure SQL table for new rows using the `Query editor (preview)` function.
 
 # Certifications
 1. [Google Cloud](https://cloud.google.com/learn/certification)
