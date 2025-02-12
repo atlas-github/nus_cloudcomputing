@@ -6,12 +6,10 @@ For modules [DSA4262](https://nusmods.com/courses/DSA4262/sense-making-case-anal
 
 # Pre-requisites
 
-1. An email with the **Student Coupon Retrieval Link** was sent out. Register to proceed with the hands-on session later.
+1. Use your university or school email to sign up for [Azure for Students](https://azure.microsoft.com/en-us/free/students). Register to proceed with hands-on session later.
+2. If you would like to try your hand at Google Cloud, apply for Cloud credits [here](https://cloud.google.com/edu/faculty) via your faculty.
    * You will be asked for a name and email address, which needs to match your school domain. A confirmation email will be sent to you with a coupon code.
-   * You can request a coupon from the URL and redeem it until 28 May 2025.
-   * Coupon is valid through 28 Jan 2026.
 3. Alternatively, get a trial account on either [Google Cloud](https://cloud.google.com/?hl=en) ($300 credits for 90 days) or [Azure](https://azure.microsoft.com/) ($200 credits for 12 months).
-4. Azure also has a student accounts available on https://azure.microsoft.com/en-us/free/students
 
 # Cloud computing
 1. Benefits: scalability, cost-efficiency, and accessibility.
