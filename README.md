@@ -108,7 +108,7 @@ graph TD;
 ```
 
 Links:
-1. [Google News RSS feed]([https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en](https://github.com/atlas-github/nus_cloudcomputing/blob/main/Google_News_RSS_Feed_Azure.ipynb))
+1. [Google News RSS feed](https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en)
 2. [Google Colab](https://colab.research.google.com/)
 
 Steps:
